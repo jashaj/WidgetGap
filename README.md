@@ -15,3 +15,5 @@ There's no build script. If you can access the webapp directory of your applicat
 ## Disclaimer
 
 The goal of this project is to show that it is possible to write a single widget that can be shown on the web and be converted into a native app for the mobile phone. The code is not optimised at all.
+
+The refresh arrow comes from [famfamfam.com](http://www.famfamfam.com/lab/icons/silk/)

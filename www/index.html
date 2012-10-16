@@ -21,9 +21,9 @@
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <title>WidgetGap</title>
     </head>
-    <body>
+    <body id="body">
         <div class="app">
-            <h1>Hippo Go Green</h1>
+            <h1>Hippo Go Green <a href="#body" onclick="app.fetchProducts();"><img src="img/arrow_refresh.png" alt="Refresh"></a></h1>
             <div id="products" class="products">
                 Fetching products
             </div>

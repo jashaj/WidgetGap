@@ -28,7 +28,7 @@ var app = {
             $.each(data, function (index) {
                 item = data[index];
                 rating = item.rating >= 0 && item.rating <= 5 ? item.rating : 0;
-                items.push('<li>' + '<img src="' + item.smallThumbnail + '" alt="" class="productimage">' + '<a href="#" class="productname" onclick="app.showProductDetails(this, \'' + item.productLink + '\');return false;">' + item.localizedName + '</a>' + '<span class="price"> &euro; ' + item.price + '</span>' + ' <span class="rating" style="background-position: left -' + (Math.round(rating * 10) * 20 + 3) + 'px;"> ' + rating + '</span>' + '</li>');
+                items.push('<li>' + '<img src="' + item.smallThumbnail + '" alt="" class="productimage">' + '<a href="#" class="productname" onclick="app.showProductDetails(this, \'' + item.productLink + '\');return false;">' + item.links[0].title + '</a>' + '<span class="price"> &euro; ' + item.price + '</span>' + ' <span class="rating" style="background-position: left -' + (Math.round(rating * 10) * 20 + 3) + 'px;"> ' + rating + '</span>' + '</li>');
             });
             document.getElementById('products').innerHTML = '<ul>' + items.join('') + '</ul>';
         });
