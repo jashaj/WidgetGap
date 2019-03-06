@@ -1,6 +1,8 @@
 WidgetGap
 =========
 
+**This repository is outdated and will not be maintained**
+
 WidgetGap is a W3C widget that can be used in [Apache Wookie](http://incubator.apache.org/wookie/) and in [Apache Cordova](http://incubator.apache.org/cordova/).
 It retrieves the content from [Hippo Go Green](http://www.demo.onehippo.com).
 
